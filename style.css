@@ -1,81 +1,323 @@
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'PT Sans', sans-serif;
-    }
-    
-    h1 h2 h3 {
-        font-weight: 700;
-    }
-    
-    p {
-        font-weight: 400;
-    }
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    /* header area start */
-    
-    .header-area {
-        background-color: #fcdb00;
-        padding-top: 68px;
-    }
-    
-    .manu ul li a {
-        font-weight: 700;
-        color: #010101 !important;
-        font-size: 24px;
-    }
-    
-    .manu ul li {
-        padding: 0px 40px;
-    }
-    
-    .slider-area {
-        background: #fcdb00;
-        padding: 70px 0px;
-    }
-    
-    .Inspire h1 {
-        font-weight: 700;
-        font-size: 32px;
-    }
-    
-    .Inspire h3 {
-        font-weight: 400;
-        font-size: 20px;
-        color: #313841;
-    }
-    
-    .Inspire p {
-        font-weight: 400;
-        font-size: 16px;
-        color: #555555;
-        padding-bottom: 10px;
-    }
-    
-    .Inspire ul li i {
-        font-size: 50px;
-        color: #010101;
-        padding: 15px 18px;
-    }
-    
-    .carousel-indicators li {
-        width: 15px;
-        height: 15px;
-        border-radius: 50%;
-    }
-    
-    .carousel-indicators {
-        bottom: -60px;
-    }
-    
-    .carousel-indicators li:hover {
-        background-color: #010101;
-    }
-    
-    .carousel-indicators li:active {
-        background-color: #010101;
-    }
-    /* header area end */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 h2 h3 {
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* header area start */
+
+.header-area {
+    background-color: #fcdb00;
+    padding-top: 68px;
+}
+
+.manu ul li a {
+    font-weight: 700;
+    color: #010101 !important;
+    font-size: 24px;
+}
+
+.manu ul li {
+    padding: 0px 40px;
+}
+
+.slider-area {
+    background: #fcdb00;
+    padding: 70px 0px;
+}
+
+.Inspire h1 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.Inspire h3 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #313841;
+}
+
+.Inspire p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    padding-bottom: 10px;
+}
+
+.Inspire ul li i {
+    font-size: 50px;
+    color: #010101;
+    padding: 15px 18px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.carousel-indicators li:hover {
+    background-color: #010101;
+}
+
+.carousel-indicators li:active {
+    background-color: #010101;
+}
+
+
+/* header area end */
+
+
+/* featurds part start */
+
+.featurds {
+    padding: 100px;
+}
+
+.titel h2 {
+    font-weight: 700;
+    font-size: 32px;
+    color: #010101;
+}
+
+.titel p {
+    font-size: 20px;
+    width: 92%;
+}
+
+.icon-contant h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.icon-contant p {
+    font-size: 18px;
+}
+
+
+/* featurds part ends */
+
+
+/* contract part start */
+
+.contract-area {
+    background-color: #010101;
+    padding: 120px;
+}
+
+.contract-titel h1 {
+    color: #fcdb00;
+    font-weight: 700;
+}
+
+.contract-titel p {
+    color: #898989;
+    padding: 0px 134px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.my-input {
+    padding: 24px 83px;
+    font-size: 18px;
+}
+
+.my-button button {
+    padding: 12px 30px;
+    font-weight: 700;
+}
+
+.icon-item {
+    padding-top: 50px;
+}
+
+.icon-item ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    background-color: #fcdb00;
+    border-radius: 10%;
+    padding: 0px 13px;
+}
+
+.icon-item ul {
+    text-align: center;
+    padding: 0px 35px;
+}
+
+.icon-item ul li a {
+    color: #010101;
+}
+
+
+/* contract part end */
+
+
+/*service part start*/
+
+#service-aria {
+    padding: 50px 0px;
+}
+
+.service-content {
+    text-align: center;
+}
+
+.service-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.service-content p {
+    font-size: 20px;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.text-part {
+    padding: 70px 0 40px 0;
+}
+
+.image-part {
+    position: absolute;
+}
+
+.content-part {
+    margin-left: 65px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.content-part h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.content-part p {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify;
+    width: 80%;
+}
+
+
+/*service part end*/
+
+
+/*footer aria START*/
+
+.footer-aria {
+    padding: 70px 0px;
+    background-color: black;
+}
+
+.fast-text-aria h2 {
+    font-size: 32px;
+    color: #fcdb00;
+    font-weight: 700;
+}
+
+.fast-text-aria p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: 20px;
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fast-text-aria form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.fast-text-aria form input {
+    text-align: center;
+    margin-left: 260px;
+    padding: 10px 130px;
+}
+
+.fast-text-aria form button {
+    background-color: #fcdb00;
+    color: black;
+    padding: 6px 20px;
+    margin-left: 10px;
+}
+
+.last-aria {
+    padding: 100px 0;
+}
+
+.last-icon ul {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.last-icon ul li {
+    font-size: 45px;
+    padding: 0px 20px;
+}
+
+.last-icon ul li a {
+    background-color: #fcdb00;
+    color: black;
+    border-radius: 7px;
+}
+
+.fast-side h5 {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.fast-side h6 {
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 25px;
+}
+
+.footer-menu-side ul li {
+    list-style: none;
+}
+
+.footer-menu-side ul li a {
+    color: #ffffff;
+}
+
+.footer-menu-side ul li a:hover {
+    text-decoration: none;
+}
+
+.name-part {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.name-part p {
+    font-size: 16px;
+    color: #dddddd;
+    text-transform: capitalize;
+}
+
+
+/*footer aria END*/
